@@ -19,7 +19,8 @@ import mongoose from "mongoose";
 const connectToMongoDB = async () => {
   try {
     // 👇 paste your Compass/Atlas URI here
-    const mongoURI = "mongodb+srv://abhaymehta202001_db_user:zzsYvBYK0qish3v9@chat.uieue1w.mongodb.net/";
+        const mongoURI = "mongodb+srv://<login-tut>:<Abhay-1424>@chat.uieue1w.mongodb.net/";
+
 
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
